@@ -1,0 +1,13 @@
+{
+  "name": "react-webpack-babel7",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/usbpendrive/react-webpack-babel",
+  "author": "Fernando <ferry.fernando@gmail.com> (https://github.com/usbpendrive)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
