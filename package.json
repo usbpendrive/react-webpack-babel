@@ -6,8 +6,9 @@
   "author": "Fernando <ferry.fernando@gmail.com> (https://github.com/usbpendrive)",
   "license": "MIT",
   "scripts": {
-    "webpack": "webpack",
-    "start": "webpack-dev-server --open"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "babel-node ./node_modules/webpack/bin/webpack",
+    "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
